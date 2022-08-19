@@ -1,0 +1,25 @@
+@import './utils/variables';
+@import './utils/visually-hidden.scss';
+
+@import './base/common';
+@import './base/section';
+@import './base/container';
+@import './base/section-title';
+
+@import './components/current';
+@import './components/modal-window';
+@import './components/modal-form';
+
+@import './layout/header';
+@import './layout/logo';
+@import './layout/hero';
+@import './layout/description';
+@import './layout/about';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/contacts-header';
+@import './layout/footer';
+@import './layout/footer-logo';
+@import './layout/footer-contact';
+@import './layout/portfolio-btm';
+@import './layout/portfolio-gallery';

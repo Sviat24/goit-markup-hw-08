@@ -1,0 +1,29 @@
+.pege-nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.logo__studio {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo__style {
+  color: var(--accent-color);
+}
+.logo__studio {
+  color: var(--secondary-text);
+}
+
+.logo__style,
+.logo__studio {
+  font-family: var(--secondary-font);
+}
