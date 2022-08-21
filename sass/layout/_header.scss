@@ -1,3 +1,23 @@
+.header__container {
+  @media screen and (min-width: 480px) {
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+  .contacts {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .section__about {
+    display: none;
+  }
+}
+
 .header {
   border-bottom: 1px solid #ececec;
 }
@@ -5,13 +25,20 @@
 .header__container {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 .menu {
-  display: flex;
-  align-items: center;
-  margin-left: 93px;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    align-items: center;
+    margin-left: 88px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-left: 93px;
+  }
 }
+
 .menu__link {
   display: block;
   position: relative;

@@ -1,53 +1,53 @@
-.hero {
-  max-width: 1600px;
-  height: 600px;
-  margin-left: auto;
-  margin-right: auto;
+// .hero {
+//   max-width: 1600px;
+//   height: 600px;
+//   margin-left: auto;
+//   margin-right: auto;
 
-  padding: 200px 0;
-  text-align: center;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-    url(../images/hero/hero.jpg);
-  background-size: cover;
-  background-color: #c4c4c4;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+//   padding: 200px 0;
+//   text-align: center;
+//   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+//     url(../images/hero/hero.jpg);
+//   background-size: cover;
+//   background-color: #c4c4c4;
+//   background-position: center;
+//   background-repeat: no-repeat;
+// }
 
-.hero__titel {
-  width: 696px;
-  margin-left: auto;
-  margin-right: auto;
-  font-weight: 900;
-  font-size: 44px;
-  margin-bottom: 30px;
-  line-height: 1.36;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+// .hero__titel {
+//   width: 696px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   font-weight: 900;
+//   font-size: 44px;
+//   margin-bottom: 30px;
+//   line-height: 1.36;
+//   text-align: center;
+//   letter-spacing: 0.06em;
+//   text-transform: uppercase;
 
-  color: var(--secondary-text-white);
-}
+//   color: var(--secondary-text-white);
+// }
 
-.hero__btn {
-  display: inline-block;
-  min-width: 200px;
-  font-family: inherit;
-  border-radius: 4px;
-  padding: 10px 32px;
-  border: transparent;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
-  align-items: center;
-  text-align: center;
-  background-color: var(--accent-color);
-  color: var(--secondary-text-white);
-  transition: background-color var(--transition-speed), color 250ms var(--transition-speed);
-  &:hover,
-  &:focus {
-    background-color: var(--hover-color-btm);
-    color: var(--secondary-text-white);
-  }
-}
+// .hero__btn {
+//   display: inline-block;
+//   min-width: 200px;
+//   font-family: inherit;
+//   border-radius: 4px;
+//   padding: 10px 32px;
+//   border: transparent;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 1.88;
+//   letter-spacing: 0.06em;
+//   align-items: center;
+//   text-align: center;
+//   background-color: var(--accent-color);
+//   color: var(--secondary-text-white);
+//   transition: background-color var(--transition-speed), color 250ms var(--transition-speed);
+//   &:hover,
+//   &:focus {
+//     background-color: var(--hover-color-btm);
+//     color: var(--secondary-text-white);
+//   }
+// }

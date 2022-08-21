@@ -4,10 +4,15 @@
 }
 
 .logo {
+  @media screen and (max-width: 767px) {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 .logo__studio {
   font-weight: 700;
@@ -16,14 +21,11 @@
   letter-spacing: 0.03em;
 }
 
-.logo__style {
-  color: var(--accent-color);
-}
 .logo__studio {
   color: var(--secondary-text);
 }
 
-.logo__style,
+.logo,
 .logo__studio {
   font-family: var(--secondary-font);
 }

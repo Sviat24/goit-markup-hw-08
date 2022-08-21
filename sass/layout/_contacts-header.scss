@@ -1,8 +1,6 @@
 .contacts__link {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -15,15 +13,30 @@
   }
 }
 .contacts {
-  display: flex;
-  margin-left: auto;
+  @media screen and (min-width: 767px) {
+  }
 }
 
+.contacts {
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+}
+.contacts__item + .contacts__item {
+  @media screen and (min-width: 1200px) {
+    margin-left: 50px;
+  }
+}
 .contacts__icon {
   margin-right: 10px;
   fill: currentColor;
 }
 
-.contacts__item + .contacts__item {
-  margin-left: 50px;
+.contacts__item:not(:last-child) {
+  @media screen and (max-width: 1199px) {
+    margin-bottom: 10px;
+  }
 }
