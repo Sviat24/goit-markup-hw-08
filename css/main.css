@@ -378,20 +378,12 @@ button {
   color: var(--accent-color);
 }
 
-.mobile-menu__item:not(:last-child) {
-  margin-bottom: 32px;
-}
-
 .mobile-contacts__phone {
   font-weight: 500;
   font-size: 34px;
   line-height: 1.177;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-}
-
-.mobile-contacts {
-  margin-top: 302px;
 }
 
 .mobile-contacts__mail {
@@ -402,15 +394,26 @@ button {
   color: var(--primary-text);
 }
 
+.mobile-menu__item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
 .mobile-contacts__item:not(:last-child) {
   margin-bottom: 32px;
+}
+
+.mobile-menu__item:last-child {
+  margin-bottom: 302px;
+}
+
+.mobile-contacts__item:last-child {
+  margin-bottom: 64px;
 }
 
 .mobile-socials {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 64px;
+  justify-content: left;
 }
 
 .mobile-socials__link {
@@ -419,14 +422,14 @@ button {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-  margin-top: 64px;
 }
 
-.mobile-socials__item {
-  padding: 0 20px;
+.mobile-socials__item:not(:last-child) {
+  padding-right: 10px;
+  margin-right: 10px;
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
-.mobile-socials__item:last-child {
+.mobile-socials__item:not(:last-child):last-child {
   border: none;
 }
 
@@ -522,6 +525,28 @@ button {
 .logo,
 .logo__studio {
   font-family: var(--secondary-font);
+}
+
+.hero__btn {
+  display: inline-block;
+  min-width: 200px;
+  font-family: inherit;
+  border-radius: 4px;
+  padding: 10px 32px;
+  border: transparent;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  align-items: center;
+  text-align: center;
+  background-color: var(--accent-color);
+  color: var(--secondary-text-white);
+  transition: background-color var(--transition-speed), color 250ms var(--transition-speed);
+}
+.hero__btn:hover, .hero__btn:focus {
+  background-color: var(--hover-color-btm);
+  color: var(--secondary-text-white);
 }
 
 .contacts__link {
