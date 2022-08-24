@@ -345,7 +345,7 @@ button {
   top: 0;
   left: 0;
   background-color: var(--primary-background-color);
-  max-height: 796px;
+  max-height: 100%;
   z-index: 50;
   opacity: 0;
   visibility: hidden;
@@ -472,6 +472,11 @@ button {
     height: 60px;
   }
 }
+@media screen and (min-width: 480px) and (min-width: 768px) {
+  .header__container {
+    height: 80px;
+  }
+}
 
 @media screen and (max-width: 767px) {
   .menu {
@@ -550,14 +555,6 @@ button {
     margin: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .logo {
-    margin-right: 93px;
-    padding-top: 24px;
-    padding-bottom: 25px;
-  }
-}
-
 .logo__studio {
   font-weight: 700;
   font-size: 26px;
@@ -707,6 +704,38 @@ button {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text);
+}
+
+.about {
+  display: flex;
+  gap: 30px;
+}
+
+.about__text {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-white);
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.about__box {
+  position: relative;
+}
+
+.about--none-padding {
+  padding-top: 0;
 }
 
 @media screen and (min-width: 768px) {
