@@ -153,12 +153,22 @@ button {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 528px;
-  height: 581px;
+  width: calc(100vw - 30px);
+  margin: auto;
   background-color: var(--primary-background-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   padding: 40px;
+}
+@media screen and (min-width: 480px) and (max-width: 1199px) {
+  .backdrop__modal {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .backdrop__modal {
+    width: 528px;
+  }
 }
 
 .backdrop__close {
@@ -219,12 +229,17 @@ button {
 }
 
 .form__text--link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: var(--accent-color);
+}
+@media screen and (min-width: 1200px) {
+  .form__text--link {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form__icon {
@@ -282,11 +297,8 @@ button {
 
 .form__check {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   margin-bottom: 30px;
 }
@@ -302,6 +314,12 @@ button {
   background-repeat: no-repeat;
   background-size: 16px 15px;
   transition: box-shadow var(--transition-speed);
+}
+@media screen and (min-width: 1200px) {
+  .form__check {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .form__submit {
@@ -331,11 +349,16 @@ button {
 .form__text {
   font-weight: 700;
   font-size: 20px;
-  line-height: 23px;
+  line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-text);
   margin-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .form__text {
+    line-height: 1.15;
+  }
 }
 
 .mobile-menu {
