@@ -114,3 +114,13 @@
     border: none;
   }
 }
+
+.mobile-menu__close-icon:hover,
+.mobile-menu__close-icon:focus {
+  fill: var(--accent-color);
+}
+
+.mobile-menu-open__icon:hover,
+.mobile-menu-open__icon:focus {
+  fill: var(--accent-color);
+}
