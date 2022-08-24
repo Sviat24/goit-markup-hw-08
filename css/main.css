@@ -1261,7 +1261,6 @@ button {
   top: 0;
   width: 100%;
   height: 100%;
-  padding: 63px 24px;
   overflow: auto;
   font-size: 18px;
   line-height: 1.56;
@@ -1275,5 +1274,15 @@ button {
 @media screen and (max-width: 767px) {
   .gallery__overlay {
     padding: 77px 24px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .gallery__overlay {
+    padding: 49px 24px 77px 24px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery__overlay {
+    padding: 63px 24px;
   }
 }/*# sourceMappingURL=main.css.map */
