@@ -19,6 +19,11 @@
   padding-top: 48px;
   padding-left: 40px;
   padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 100%;
 }
 
 .mobile-menu-open {
@@ -84,10 +89,6 @@
   margin-bottom: 32px;
 }
 
-.mobile-menu__item:last-child {
-  margin-bottom: 302px;
-}
-
 .mobile-contacts__item:last-child {
   margin-bottom: 64px;
 }
@@ -123,4 +124,8 @@
 .mobile-menu-open__icon:hover,
 .mobile-menu-open__icon:focus {
   fill: var(--accent-color);
+}
+
+.mobile-menu__link--current {
+  color: var(--accent-color);
 }
